@@ -1,0 +1,39 @@
+      .sub {
+        background-color: rgb(202, 0, 0);
+        color: white;
+        border: none;
+        height: 35px;
+        width: 110px;
+        border-radius: 3px;
+        cursor: pointer;
+        margin-right: 8px;
+        transition: opacity 0.2s;
+      }
+      .sub:hover {
+        opacity: 0.7;
+      }
+      .sub:active {
+        opacity: 0.3;
+      }
+      .join {
+        background-color: white;
+        color: rgb(71, 114, 255);
+        border-radius: 2px;
+        border-color: rgb(71, 114, 255);
+        height: 35px;
+        width: 60px;
+        border-style: solid;
+        border-width: 1px;
+        cursor: pointer;
+        margin-right: 8px;
+      }
+      .tweet {
+        background-color: rgb(50, 159, 255);
+        color: rgb(255, 255, 255);
+        border-radius: 80px;
+        height: 35px;
+        width: 70px;
+        border-style: none;
+        cursor: pointer;
+        font-weight: bold;
+      }
